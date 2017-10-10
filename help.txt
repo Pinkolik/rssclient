@@ -1,0 +1,5 @@
+/add <RSS-link> <name>
+/remove <name>
+/shownews <name>
+/showchannels
+/exit
