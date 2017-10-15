@@ -1,5 +1,2 @@
 http://feeds.bbci.co.uk/news/world/rss.xml BBCWorldNews
-http://www.cbn.com/cbnnews/us/feed/ CBNUSNews
-http://fratria.ru/cgi-bin/iBlog/rss/youngfanat.xml Fanta
 https://lenta.ru/rss Lenta
-https://www.ruby-lang.org/en/feeds/news.rss RubyNews
