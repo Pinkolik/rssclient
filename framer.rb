@@ -8,19 +8,22 @@ class Framer
 
   def self.frame(text, vertical_char, horizontal_char, color)
     console_width = TTY::Screen.width-2
-    last_whitespace = -1
-    for i in 1..text.length/console_width
-      text[i*console_width]="\n"
+    last_whitespace = 0
+    last_placed = 0
+    for i in 1..text.length
+      if (text[i] == ' ')
+        last_whitespace = i
+      end
+      if ((i - last_placed)%console_width == 0)
+        text[last_whitespace] = "\n"
+        last_placed = last_whitespace
+      end
     end
     split_text = text.split("\n")
     max = 0
     split_text.each do |line|
       if line.length > max
-        if line.length < console_width
-          max = line.length
-        else
-          max = console_width
-        end
+        max = line.length
       end
     end
     puts colorize(color, horizontal_char*(max + 2))

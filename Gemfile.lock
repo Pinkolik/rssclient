@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    tty-screen (0.5.0)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  tty-screen (~> 0.5.0)!
+
+BUNDLED WITH
+   1.15.4

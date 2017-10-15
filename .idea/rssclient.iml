@@ -7,5 +7,7 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.15.4, ruby-2.4.1-p111) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tty-screen (v0.5.0, ruby-2.4.1-p111) [gem]" level="application" />
   </component>
 </module>
